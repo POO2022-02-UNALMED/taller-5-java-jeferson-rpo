@@ -33,7 +33,7 @@ public class Animal {
 	public void movimiento() {
 		System.out.println("desplazarse");
 	}
-	public String totalPorTipo() {
+	public static String totalPorTipo() {
 		return "Mamiferos:"+ (Mamifero.caballos +Mamifero.leones) + "/nAves:" + (Ave.aguilas+Ave.halcones)+"/nReptiles:"+(Reptil.iguanas+Reptil.serpientes)+
 				"/nPez:"+(Pez.bacalaos+Pez.salmones)+"/nAnfibio:"+(Anfibio.ranas+Anfibio.salamandras);
 		}
