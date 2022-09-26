@@ -14,8 +14,8 @@ public class Reptil  extends Animal{
 	}
 	public Reptil (String nombre, int edad,String habitat,String genero,String colorEscamas,int largoCola) {
 		super(nombre,edad,habitat,genero);
-		this.colorEscamas=colorEscamas;
-		this.largoCola= largoCola;
+		this.setColorEscamas(colorEscamas);
+		this.setLargoCola(largoCola);
 		listado.add(this);
 		setTotalReptiles(1);	
 	}
@@ -50,5 +50,17 @@ public class Reptil  extends Animal{
 		}
 	public void setListado(ArrayList<Reptil> reptiles) {
 		this.listado= reptiles;
+	}
+	public String getColorEscamas() {
+		return colorEscamas;
+	}
+	public void setColorEscamas(String colorEscamas) {
+		this.colorEscamas = colorEscamas;
+	}
+	public int getLargoCola() {
+		return largoCola;
+	}
+	public void setLargoCola(int largoCola) {
+		this.largoCola = largoCola;
 	}
 }

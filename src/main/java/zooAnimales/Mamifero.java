@@ -49,5 +49,17 @@ public class Mamifero extends Animal{
 	public void setListado(ArrayList<Mamifero> mamiferos) {
 		this.listado= mamiferos;
 	}
+	public boolean getPelaje() {
+		return pelaje;
+	}
+	public void setPelaje(boolean pelaje) {
+		this.pelaje= pelaje;
+	}
+	public int getPatas() {
+		return patas;
+	}
+	public void setPelaje(int patas) {
+		this.patas= patas;
+	}
 		
 }
