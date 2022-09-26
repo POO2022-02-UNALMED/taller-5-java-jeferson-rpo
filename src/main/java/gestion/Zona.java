@@ -22,7 +22,6 @@ public class Zona {
 	}	
 	
 	public void agregarAnimales (Animal animal) { 
-		
     	animales.add(animal);	    					
 	 }
 	
