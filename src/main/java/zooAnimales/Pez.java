@@ -34,7 +34,7 @@ public class Pez  extends Animal {
 		String colorEscamas = "gris";
 		int cantidadAletas=6;
 		String habitat= "oceano";
-		salmones++;
+		bacalaos++;
 		Pez bacalao= new Pez(nombre,edad,habitat,genero,colorEscamas,cantidadAletas);
 		listado.add(bacalao);
 		return bacalao;
