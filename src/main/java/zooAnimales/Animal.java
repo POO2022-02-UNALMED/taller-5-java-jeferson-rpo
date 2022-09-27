@@ -27,7 +27,7 @@ public class Animal {
 		this.edad=edad;
 		this.habitat=habitat;
 		this.genero=genero;
-		totalAnimales++;
+		setTotalAnimales(getTotalAnimales() + 1);
 		
 	}
 	public String movimiento() {
@@ -111,6 +111,14 @@ public class Animal {
 	}
 	public void setGenero(String genero) {
 		this.genero= genero;
+	}
+
+	public int getTotalAnimales() {
+		return totalAnimales;
+	}
+
+	public void setTotalAnimales(int totalAnimales) {
+		this.totalAnimales = totalAnimales;
 	}
 	
 	

@@ -51,9 +51,7 @@ public class Anfibio extends Animal {
     	      System.out.println(listado.get(i));
     	}
 		}
-	public void setListado(ArrayList<Anfibio> anfibios) {
-		this.listado= anfibios;
-	}
+	
 
 	public String getColorPiel() {
 		return colorPiel;
