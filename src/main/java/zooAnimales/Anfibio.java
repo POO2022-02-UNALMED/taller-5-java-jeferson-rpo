@@ -42,9 +42,9 @@ public class Anfibio extends Animal {
 		return salamandra;
 	}
 	
-	@Override
-	public void movimiento() {
-		System.out.println("saltar");
+	
+	public String movimiento() {
+		return "saltar";
 	}
 	public void getListado() {
     	for (int i = 0; i < listado.size(); i++) {

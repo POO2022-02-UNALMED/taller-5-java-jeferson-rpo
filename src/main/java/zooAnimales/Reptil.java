@@ -39,9 +39,9 @@ public class Reptil  extends Animal{
 	}
 	
 	
-	@Override
-	public void movimiento() {
-		System.out.println("reptar");
+
+	public String movimiento() {
+		return "reptal";
 	}
 	public void getListado() {
     	for (int i = 0; i < listado.size(); i++) {

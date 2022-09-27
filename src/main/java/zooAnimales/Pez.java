@@ -38,9 +38,9 @@ public class Pez  extends Animal {
 		return bacalao;
 	}
 	
-	@Override
-	public void movimiento() {
-		System.out.println("nadar");
+	
+	public String movimiento() {
+		return "nadar";
 	}
 	public void getListado() {
     	for (int i = 0; i < listado.size(); i++) {

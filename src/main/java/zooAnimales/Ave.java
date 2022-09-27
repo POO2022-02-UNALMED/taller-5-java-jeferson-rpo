@@ -33,9 +33,9 @@ public class Ave  extends Animal {
 		listado.add(aguila);
 		return aguila;
 	}
-	@Override
-	public void movimiento() {
-		System.out.println("volar");
+	
+	public String movimiento() {
+		return "volar";
 	}
 	public void getListado() {
     	for (int i = 0; i < listado.size(); i++) {
