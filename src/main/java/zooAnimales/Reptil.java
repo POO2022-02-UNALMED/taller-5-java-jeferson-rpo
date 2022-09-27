@@ -43,7 +43,7 @@ public class Reptil  extends Animal{
 	
 
 	public String movimiento() {
-		return "reptal";
+		return "reptar";
 	}
 	public void getListado() {
     	for (int i = 0; i < listado.size(); i++) {
