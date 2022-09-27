@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import gestion.Zona;
 
+
 public class Animal {
 	private int totalAnimales;
 	 String nombre;
@@ -35,8 +36,8 @@ public class Animal {
 		return a;
 	}
 	public static String totalPorTipo() {
-		return "Mamiferos:"+ (Mamifero.caballos +Mamifero.leones) + "/nAves:" + (Ave.aguilas+Ave.halcones)+"/nReptiles:"+(Reptil.iguanas+Reptil.serpientes)+
-				"/nPez:"+(Pez.bacalaos+Pez.salmones)+"/nAnfibio:"+(Anfibio.ranas+Anfibio.salamandras);
+		return "Mamiferos: "+ (Mamifero.caballos +Mamifero.leones) + "/nAves: " + (Ave.aguilas+Ave.halcones)+"/nReptiles: "+(Reptil.iguanas+Reptil.serpientes)+
+				"/nPez: "+(Pez.bacalaos+Pez.salmones)+"/nAnfibio:"+(Anfibio.ranas+Anfibio.salamandras);
 		}
 
 	public ArrayList<Zona> getZonas() {
@@ -120,8 +121,17 @@ public class Animal {
 	public void setTotalAnimales(int totalAnimales) {
 		this.totalAnimales = totalAnimales;
 	}
-	
-	
+	public String toString() {
+		if (this.zonas != null){
+			return "Mi nombre es " + this.getNombre() + "tengo una edad de " + this.getEdad() + "habito en " + this.getHabitat() + "y mi genero es " +
+				this.getGenero() + "la zona en la que me ubico es " + this.getZonas() + "en el " + Zona.getZoo().getNombre() ;
+		}
+		else {
+			return "Mi nombre es " + this.getNombre() + "tengo una edad de " + this.getEdad() + "habito en " + this.getHabitat() + "y mi genero es " +
+					this.getGenero();
+		}
+	}
+		
 }
 
 	
