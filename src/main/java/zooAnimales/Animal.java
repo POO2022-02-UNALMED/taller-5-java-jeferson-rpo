@@ -123,15 +123,16 @@ public class Animal {
 	}
 	public String toString() {
 		if (this.zonas != null){
-			return "Mi nombre es " + this.getNombre() + ",tengo una edad de " + this.getEdad() + ",habito en " + this.getHabitat() + "y mi genero es " +
-				this.getGenero() + ",la zona en la que me ubico es " + this.getZonas() + ",en el " + Zona.getZoo().getNombre();
+			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en la " + this.getHabitat() + " y mi genero es " +
+				this.getGenero() + ", la zona en la que me ubico es " + this.getZonas() + ", en el " + Zona.getZoo().getNombre();
 		}
 		else {
-			return "Mi nombre es " + this.getNombre() + ",tengo una edad de " + this.getEdad() + ",habito en " + this.getHabitat() + "y mi genero es " +
+			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en la " + this.getHabitat() + " y mi genero es " +
 					this.getGenero();
 		}
 	}
-		
+
+	
 }
 
 	
