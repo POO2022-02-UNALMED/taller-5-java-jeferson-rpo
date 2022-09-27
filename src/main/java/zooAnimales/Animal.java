@@ -36,8 +36,8 @@ public class Animal {
 		return a;
 	}
 	public static String totalPorTipo() {
-		return "Mamiferos: "+ (Mamifero.caballos +Mamifero.leones) + "/nAves: " + (Ave.aguilas+Ave.halcones)+"/nReptiles: "+(Reptil.iguanas+Reptil.serpientes)+
-				"/nPez: "+(Pez.bacalaos+Pez.salmones)+"/nAnfibio:"+(Anfibio.ranas+Anfibio.salamandras);
+		return "Mamiferos: "+ totalMamiferos + "/nAves: " + totalAves+"/nReptiles: "+totalReptiles+
+				"/nPez: "+totalPeces+"/nAnfibio:"+totalAnfibios;
 		}
 
 	public ArrayList<Zona> getZonas() {
